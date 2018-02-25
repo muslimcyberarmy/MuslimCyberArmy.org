@@ -1,0 +1,19 @@
+html {
+    overflow-y: auto;
+}
+#app, .application {
+    font-family: "Raleway",-apple-system,system-ui,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    background: rgb(238, 244, 247);
+}
+.f-normal {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif !important;
+}
+
+.mca-input {
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+    color: #FFF;
+    background: rgba(255,255,255,.95);
+}
