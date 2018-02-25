@@ -1,13 +1,11 @@
 <template>
-  <v-app light>
+  <v-app dark>
     <v-navigation-drawer
       :mini-variant="true"
       fixed
       app
-      dark
       disable-route-watcher
       v-model="drawer"
-      class="grey darken-4"
     >
       <v-list>
         <v-list-tile
@@ -22,9 +20,9 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed app class="blue accent-4 white--text elevation-0">
+    <v-toolbar fixed app class="white--text elevation-0">
       <v-toolbar-side-icon @click="drawer = !drawer" class="white--text"></v-toolbar-side-icon>
-      <input type="text" placeholder="Search" class="mca-input">
+      <!-- <input type="text" placeholder="Search" class="mca-input"> -->
       <v-spacer></v-spacer>
       <v-btn
         icon
@@ -38,9 +36,6 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer :fixed="fixed" app>
-      <span class="f-normal">&copy; 2018</span>
-    </v-footer>
   </v-app>
 </template>
 

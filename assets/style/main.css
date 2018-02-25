@@ -3,7 +3,6 @@ html {
 }
 #app, .application {
     font-family: "Raleway",-apple-system,system-ui,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
-    background: rgb(238, 244, 247);
 }
 .f-normal {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif !important;
